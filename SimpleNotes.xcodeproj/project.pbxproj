@@ -23,7 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		24AAF612259F8C18003A3966 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24AAF612259F8C18003A3966 /* SimpleNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24AAF615259F8C18003A3966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24AAF617259F8C18003A3966 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		24AAF61C259F8C18003A3966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		24AAF609259F8C18003A3966 = {
 			isa = PBXGroup;
 			children = (
-				24AAF614259F8C18003A3966 /* Notes */,
+				24AAF614259F8C18003A3966 /* SimpleNotes */,
 				24AAF613259F8C18003A3966 /* Products */,
 				D5668F309D1D6C1FFA1A2DE8 /* Pods */,
 				966BEEFE39C9407CD3A69F29 /* Frameworks */,
@@ -67,12 +67,12 @@
 		24AAF613259F8C18003A3966 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24AAF612259F8C18003A3966 /* Notes.app */,
+				24AAF612259F8C18003A3966 /* SimpleNotes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		24AAF614259F8C18003A3966 /* Notes */ = {
+		24AAF614259F8C18003A3966 /* SimpleNotes */ = {
 			isa = PBXGroup;
 			children = (
 				24AAF615259F8C18003A3966 /* AppDelegate.swift */,
@@ -89,7 +89,7 @@
 				24AAF620259F8C1A003A3966 /* LaunchScreen.storyboard */,
 				24AAF623259F8C1A003A3966 /* Info.plist */,
 			);
-			path = Notes;
+			path = SimpleNotes;
 			sourceTree = "<group>";
 		};
 		966BEEFE39C9407CD3A69F29 /* Frameworks */ = {
@@ -112,9 +112,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		24AAF611259F8C18003A3966 /* Notes */ = {
+		24AAF611259F8C18003A3966 /* SimpleNotes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24AAF626259F8C1A003A3966 /* Build configuration list for PBXNativeTarget "Notes" */;
+			buildConfigurationList = 24AAF626259F8C1A003A3966 /* Build configuration list for PBXNativeTarget "SimpleNotes" */;
 			buildPhases = (
 				DE0CB12AA55912D99072F7D4 /* [CP] Check Pods Manifest.lock */,
 				24AAF60E259F8C18003A3966 /* Sources */,
@@ -126,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = Notes;
+			name = SimpleNotes;
 			productName = Notes;
-			productReference = 24AAF612259F8C18003A3966 /* Notes.app */;
+			productReference = 24AAF612259F8C18003A3966 /* SimpleNotes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 24AAF60D259F8C18003A3966 /* Build configuration list for PBXProject "Notes" */;
+			buildConfigurationList = 24AAF60D259F8C18003A3966 /* Build configuration list for PBXProject "SimpleNotes" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -158,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				24AAF611259F8C18003A3966 /* Notes */,
+				24AAF611259F8C18003A3966 /* SimpleNotes */,
 			);
 		};
 /* End PBXProject section */
@@ -380,12 +380,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Notes/Info.plist;
+				INFOPLIST_FILE = SimpleNotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.maria.SimpleNotes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maria.SimpleNotesQuickNotepad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -399,12 +399,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Notes/Info.plist;
+				INFOPLIST_FILE = SimpleNotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.maria.SimpleNotes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maria.SimpleNotesQuickNotepad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -414,7 +414,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		24AAF60D259F8C18003A3966 /* Build configuration list for PBXProject "Notes" */ = {
+		24AAF60D259F8C18003A3966 /* Build configuration list for PBXProject "SimpleNotes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24AAF624259F8C1A003A3966 /* Debug */,
@@ -423,7 +423,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24AAF626259F8C1A003A3966 /* Build configuration list for PBXNativeTarget "Notes" */ = {
+		24AAF626259F8C1A003A3966 /* Build configuration list for PBXNativeTarget "SimpleNotes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24AAF627259F8C1A003A3966 /* Debug */,
