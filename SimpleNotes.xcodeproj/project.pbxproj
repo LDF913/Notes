@@ -19,7 +19,7 @@
 		24AAF63F25A5EFC1003A3966 /* PremiumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AAF63C25A5EFC1003A3966 /* PremiumController.swift */; };
 		24AAF64025A5EFC1003A3966 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AAF63D25A5EFC1003A3966 /* SettingsController.swift */; };
 		24AAF64125A5EFC1003A3966 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AAF63E25A5EFC1003A3966 /* AppInfo.swift */; };
-		CE805B5E4933B20E29157A4E /* Pods_Notes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB97D5E73FB92E995F9601AC /* Pods_Notes.framework */; };
+		D3C8EC54614E551D9C234D61 /* Pods_SimpleNotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E0A41805FEABCD0F19056B /* Pods_SimpleNotes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +37,11 @@
 		24AAF63C25A5EFC1003A3966 /* PremiumController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PremiumController.swift; sourceTree = "<group>"; };
 		24AAF63D25A5EFC1003A3966 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		24AAF63E25A5EFC1003A3966 /* AppInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		29E0A41805FEABCD0F19056B /* Pods_SimpleNotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleNotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		353D50E7D8E116A1D5D1CC8D /* Pods-SimpleNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNotes.release.xcconfig"; path = "Target Support Files/Pods-SimpleNotes/Pods-SimpleNotes.release.xcconfig"; sourceTree = "<group>"; };
 		93CB35B744267092EFA4ED12 /* Pods-Notes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes.release.xcconfig"; path = "Target Support Files/Pods-Notes/Pods-Notes.release.xcconfig"; sourceTree = "<group>"; };
 		A5B22462669EA9D03E3811B6 /* Pods-Notes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes.debug.xcconfig"; path = "Target Support Files/Pods-Notes/Pods-Notes.debug.xcconfig"; sourceTree = "<group>"; };
-		DB97D5E73FB92E995F9601AC /* Pods_Notes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Notes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F758AF5FCEDDFD27158D887F /* Pods-SimpleNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNotes.debug.xcconfig"; path = "Target Support Files/Pods-SimpleNotes/Pods-SimpleNotes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE805B5E4933B20E29157A4E /* Pods_Notes.framework in Frameworks */,
+				D3C8EC54614E551D9C234D61 /* Pods_SimpleNotes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +97,7 @@
 		966BEEFE39C9407CD3A69F29 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DB97D5E73FB92E995F9601AC /* Pods_Notes.framework */,
+				29E0A41805FEABCD0F19056B /* Pods_SimpleNotes.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -105,6 +107,8 @@
 			children = (
 				A5B22462669EA9D03E3811B6 /* Pods-Notes.debug.xcconfig */,
 				93CB35B744267092EFA4ED12 /* Pods-Notes.release.xcconfig */,
+				F758AF5FCEDDFD27158D887F /* Pods-SimpleNotes.debug.xcconfig */,
+				353D50E7D8E116A1D5D1CC8D /* Pods-SimpleNotes.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -183,15 +187,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Notes/Pods-Notes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleNotes/Pods-SimpleNotes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Notes/Pods-Notes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleNotes/Pods-SimpleNotes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Notes/Pods-Notes-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpleNotes/Pods-SimpleNotes-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DE0CB12AA55912D99072F7D4 /* [CP] Check Pods Manifest.lock */ = {
@@ -209,7 +213,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Notes-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SimpleNotes-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -375,7 +379,7 @@
 		};
 		24AAF627259F8C1A003A3966 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5B22462669EA9D03E3811B6 /* Pods-Notes.debug.xcconfig */;
+			baseConfigurationReference = F758AF5FCEDDFD27158D887F /* Pods-SimpleNotes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -394,7 +398,7 @@
 		};
 		24AAF628259F8C1A003A3966 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93CB35B744267092EFA4ED12 /* Pods-Notes.release.xcconfig */;
+			baseConfigurationReference = 353D50E7D8E116A1D5D1CC8D /* Pods-SimpleNotes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
