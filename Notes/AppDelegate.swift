@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Notes
-//
-//  Created by Dzmitry Veliaskevich on 1.01.21.
-//
-
 import UIKit
 
 @main
